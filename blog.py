@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 # Hugging Face Inference Client
-client = InferenceClient(api_key=os.getenv("HF_API_TOKEN"))
+client = InferenceClient(api_key=os.getenv("TOKEN"))
 
 app = Flask(__name__)
 
@@ -33,4 +33,5 @@ def index():
     return render_template("index.html", paragraph=paragraph)
 
 if __name__ == "__main__":
+
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
