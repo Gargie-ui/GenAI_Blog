@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send Heartbeat to Space
         run: |
-          curl -I https://gigishot-genai-blog.hf.space/
+          curl -I https://gigishot-genai-blog.hf.space
