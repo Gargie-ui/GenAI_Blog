@@ -2,6 +2,10 @@
 
 A Generative AI web app that creates full, well-structured blog posts from a topic or prompt — powered by the Hugging Face Inference API and built with Flask.
 
+## Demo
+
+**[Try it live](https://gigishot-genai-blog.hf.space/)**
+
 ---
 
 ## Features
