@@ -33,9 +33,3 @@ A Generative AI web app that creates full, well-structured blog posts from a top
 4. Output is displayed instantly in the browser
 
 ---
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
