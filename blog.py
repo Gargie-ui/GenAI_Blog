@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 def generate_blog(paragraph_topic):
     response = client.chat.completions.create(
-        model="HuggingFaceH4/zephyr-7b-beta",
+        model="mistralai/Mistral-7B-Instruct-v0.3",
         messages=[
             {
                 "role": "user",
@@ -34,4 +34,4 @@ def index():
 
 if __name__ == "__main__":
 
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 7860)))
